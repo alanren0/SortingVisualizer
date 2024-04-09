@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+}
+
+.main-container {
+    display: flex; 
+    justify-content: center; 
+    margin: 0 40px 0 40px; 
+    height: 100%;
+}
+
+.main {
+    flex: 1; 
+    max-width: 1000px; 
+    min-width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.controls-container div {
+    margin: 10px 0 10px 0;
+}
+
+#nums {
+    width: 100%;
+    resize: none;
+    overflow-y: scroll;
+    margin: 10px 0 10px 0;
+    height: 60px;
+}
+
+button, #submit {
+    border: 0;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white
+}
+
+button:hover:enabled, #submit:hover:enabled {
+    background-color: rgb(207, 207, 207);
+}
+
+
+select {
+    border: 0;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+}
+
